@@ -1,1 +1,1 @@
-.env
+DB_URL=mysql://jbq2:nDfIPthRQTca@db.ethereallab.app:3306/jbq2
