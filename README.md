@@ -22,4 +22,11 @@ The second page for the reservations feature of the project is for cancelling re
 
 If a customer comes to confirm the reservation, it is turned into an agreement.  Agreements and reservations are two different entities in the database, though they participate in a relationship.  An agreement can only exist if a reservation exists, but a reservation can exist without an accompanying agreement.  In the agreement page, an employee can convert an existing reservation to an agreement.  It is important to note that the displayed table of reservations in this page only consist of the reservations that are not yet tied to an agreement.  The form asks for the reservation ID (reservation that is to be tied to the agreement), the actual pick up time of the vehicle, the current mileage of the vehicle, the car, and the customer's credit card information.<br>
 
-The second page for the agreements feature of this project is for editing agreements.  It is assumed that the customer will always bring back the car (a car cannot go missing).  When a customer brings back a rental, the rental end date and the ending mileage are recorded.  In the form, it also asks for the contract number of the agreement that is to be edited.  Note that only "incomplete" agreements are displayed in the table of agreements that can be chosen.  When an incomplete agreement has been chosen, the form is partially filled with the already existing information of the agreement.  The employee is tasked to fill out the rental end date and the ending mileage of the car.
+The second page for the agreements feature of this project is for editing agreements.  It is assumed that the customer will always bring back the car (a car cannot go missing).  When a customer brings back a rental, the rental end date and the ending mileage are recorded.  In the form, it also asks for the contract number of the agreement that is to be edited.  Note that only "incomplete" agreements are displayed in the table of agreements that can be chosen.  When an incomplete agreement has been chosen, the form is partially filled with the already existing information of the agreement.  The employee is tasked to fill out the rental end date and the ending mileage of the car.<br><br>
+
+## Entity Relationship Diagram
+![image](https://user-images.githubusercontent.com/98120760/169941240-2c1f6ea2-f722-45cc-9ec0-dc8ee4dd38af.png)
+
+## Relational Schema (3rd Normal Form)
+![image](https://user-images.githubusercontent.com/98120760/169941477-7df836e8-cd09-45cd-87d9-92656f5f450c.png)
+
