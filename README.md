@@ -3,7 +3,7 @@
 A private version of this repository exists, but it has sensitive information in it regarding the MySQL Database URL.  Since pull request history cannot be deleted, we decided to create a separate public repository for the project.<br>
 # Brief Documentation:<br>
 This repository was created for publicizing the Rent-A-Car project for CS331 Honors at NJIT.<br>
-Although we were only tasked to create 3 pages for the implementation of our car rental database, we created 6 to implement 3 major business requirements.  The following are the business rules we focused on in this project:<br>
+The main point of this project was to use the lessons learned regarding relational databases and SQL to program and implement a car rental website.  Although we were only tasked to create 3 pages for the implementation of our car rental database, we created 6 to implement 3 major business requirements.  The following are the business rules we focused on in this project:<br>
 1. Adding and viewing cars in the database
 2. Creating, confirming, and deleting reservations for customers
 3. Creating and confirming agreements from existing reservations
